@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano Shop</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header>
+
+    <section class="flex">
+
+        <a href="#" class="logo"><img src="img/logo2.jpg"></img></a>
+
+        <nav class="navbar">
+            <a class="active"  href="index.html">trang chủ</a>
+            <a href="dishes.html">nổi bật</a>
+            <a href="menu.html">sản phẩm</a>
+            <a href="review.html">đánh giá </a>
+            <a href="order.html">đặt hàng</a>
+        </nav>
+    
+        <div class="icons">
+            <a><i class="fas fa-bars" id="menu-bars"></i></a>
+            <a href="login.html"><i class="fa-solid fa-user" id="login-icon"></i></a>
+            <a><i class="fas fa-search" id="search-icon"></i></a>
+            <a><i class="fas fa-shopping-cart"></i></a><p style="margin-left:160px ;"><span class="">0</span><sup>đ</sup></p>
+        </div>
+        
+    </section>
+
+</header>
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+
+<!-- sản phẩm -->
+
+
+
+<div class="container">
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading" style="margin-top: 100px;"> our menu </h3>
+        <h1 class="heading"> Hôm nay có gì nào! </h1>
+            
+        <div class="filter-btns">
+            <button type="button" class="filter-btn" id="all">all</button>
+            <button type="button" class="filter-btn" id="yamaha">yamaha</button>
+            <button type="button" class="filter-btn" id="casio">casio</button>
+            <button type="button" class="filter-btn" id="upright">upright</button>
+            <button type="button" class="filter-btn" id="roland">Roland</button>
+            <button type="button" class="filter-btn" id="rosen">rosen</button>
+        </div>
+        <div style="margin-top: 3em;" class="box-container">
+
+            <div class="box all yamaha">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp1.jpg" alt="">
+                <h3>YAMAHA B100A</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>17500000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box all casio">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp2.jpg" alt="">
+                <h3>CASIO CDP-S160</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>13800000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box all upright">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp3.jpg" alt="">
+                <h3>UPRIGHT JU109</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>14500000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box all roland">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp4.jpg" alt="">
+                <h3>ROLAND 60NA</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>33000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box all rosen">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp5.jpg" alt="">
+                <h3>ROSEN A15/30</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>24000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+
+            <div class="box all yamaha">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp6.jpg" alt="">
+                <h3>YAMAHA BRI-22A</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>69000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box all rosen">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp7.jpg" alt="">
+                <h3>ROSEN K44-ED</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>49500000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box all yamaha">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp8.jpg" alt="">
+                <h3>YAMAHA HAND7</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>35000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box all roland">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp10.jpg" alt="">
+                <h3>ROLAND GO 88-P</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>17990000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box all roland">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp11.jpg" alt="">
+                <h3>ROLAND GP-3</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>25000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+            <div class="box all yamaha">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="img/sp12.jpg" alt="">
+                <h3>YAHAMA KDA79</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p><span>12000000</span><sup>₫</sup></p>
+                <button class="btn">add to cart</button>
+            </div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+
+<div class="container">
+    <section class="cart" id="cart">
+        <span class="cart-icon"><i class="fas fa-times "></i></span>
+        <h2>Cart</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Chọn</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td style="display: flex; align-items: center;"><img style="width: 70px;"src="images/aovietnam.jpg" alt="">Áo việt nam</td>
+                        <td><p><span>15.99</span><sup>$</sup></p></td>
+                        <td>
+                            <select>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                        </td>
+                        <td><input style="width:30px;outline: none;"type="number" value="1" min="0"></td>
+                        <td style="cursor: pointer;">Xóa</td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <div stylec="text-align:right;" class="price-total">
+                <p style="font-weight: bold;">Tổng tiền :<span>0</span><sup>đ</sup></p>
+            </div>
+            <a href="order.html">Thanh Toán</a>
+        </form>
+    </section>
+</div>
+
+<div style="background-color: rgb(206, 143, 97);" class="container">
+
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h4>Design By:</h4>
+                <a href="#">Nguyễn Sơn Lâm</a>
+                <a href="#">Trần Văn Hậu</a>
+            </div>
+    
+            <div class="box">
+                <h4>ID</h4>
+                <a href="#">22IT.B117</a>
+                <a href="#">22IT.B069</a>
+            </div>
+    
+            <div class="box">
+                <h4>contact info</h4>
+                <a href="#">lamns.22itb@vku.udn.vn</a>
+                <a href="#">hautv.22itb@vku.udn.vn</a>
+            </div>
+    
+            <div class="box">
+                <h4>follow us</h4>
+               <a href="https://www.facebook.com/vku.udn.vn"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+            </div>
+    
+        </div>
+    
+    </section>
+
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+<script src="js/filter.js"></script>
+
+</body>
+</html>
